@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="112.074128">
+<testcase classname="Amazon web application smoke test cases" name="Verify the user create your amazon account funtionality" time="112.074128">
+<system-out><![CDATA[Given User launch amazon application........................................passed
+Then User click signin button...............................................passed
+Then User click create your amazon account button...........................passed
+And User enter name in create account module................................passed
+And User enter emailid in create account module.............................passed
+And User enter password in create account module............................passed
+And User enter reenter password in create account module....................passed
+And User click on create your amazon account................................passed
+Then User verify the account hasbeen created................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify the user create your amazon account funtionality",
+        "description": "",
+        "id": "amazon-web-application-smoke-test-cases;verify-the-user-create-your-amazon-account-funtionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73271853100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch amazon application",
+            "match": {
+              "location": "StepDefition.user_launch_amazon_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25348868800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click signin button",
+            "match": {
+              "location": "StepDefition.user_click_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11355489100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click create your amazon account button",
+            "match": {
+              "location": "StepDefition.user_click_create_your_amazon_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884053700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter name in create account module",
+            "match": {
+              "location": "StepDefition.user_enter_name_in_create_account_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1213692500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter emailid in create account module",
+            "match": {
+              "location": "StepDefition.user_enter_emailid_in_create_account_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter password in create account module",
+            "match": {
+              "location": "StepDefition.user_enter_password_in_create_account_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter reenter password in create account module",
+            "match": {
+              "location": "StepDefition.user_enter_reenter_password_in_create_account_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on create your amazon account",
+            "match": {
+              "location": "StepDefition.user_click_on_create_your_amazon_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verify the account hasbeen created",
+            "match": {
+              "location": "StepDefition.user_verify_the_account_hasbeen_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@TC-002"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon web application smoke test cases",
+    "description": "This includes Singin,Creat Your Amazon account functionality",
+    "id": "amazon-web-application-smoke-test-cases",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sadhana/eclipse-workspace/FunctionalBaseclass/feature/amazon.feature"
+  }
+]
